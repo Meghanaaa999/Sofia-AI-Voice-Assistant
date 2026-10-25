@@ -1,20 +1,11 @@
 # Sophia AI Assistant
 Sophia is a desktop AI assistant built using Python that can perform various tasks such as answering questions like ChatGPT, opening desktop applications, browsing websites, and even making phone and WhatsApp calls. This project is designed to be versatile and extensible, with the ability to add more functionalities easily. It integrates the Hugging Face API, a free ChatGPT alternative to simulate conversation, and offers multiple activation methods for user commands.
 
-## Demo Video
-You can check out the demo by clicking on the below image
-
-[![Demo Video](https://github.com/user-attachments/assets/b54a65c4-1deb-40e1-b957-772285d14c54)](https://youtu.be/dgCYDETwjcs)
-
-
 ## Features
 
 * **Voice Activation:** Activate Sophia by saying "Sophia."
 * **Text Input:** Type your queries and press enter to receive a response.
-* **App Control:** Open applications like Notepad and OneNote.
-* **Website Navigation:** Open websites like YouTube and Canva.
 * **Multimedia Control:** Search and play specific videos on YouTube.
-* **Phone and WhatsApp Communication:** Make calls or send messages.
 
 ## Technology Used:
 - #### Languages:
@@ -93,17 +84,6 @@ zope.event==5.0
 zope.interface==6.4.post2
 ```
 
-### Setup Instructions
-
-**Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/sophia-ai-assistant.git
-   cd sophia-ai-assistant
-```
-__To install the necessary dependencies and set up the API and database, I recommend checking out my YouTube tutorial series where I walk you through the entire process of building an AI assistant.__
-
-### 📺 [Watch the Full YouTube Tutorial Series](https://www.youtube.com/playlist?list=PLoGk-8pBKSRVWvGN372yBzrF15tSv22KY)
-
 ## Usage
 
 ### Activating the Assistant
@@ -114,34 +94,15 @@ There are several ways to activate Sophia:
 - **Keyboard Shortcut:** Press `Window + J` to activate the assistant.
 
 ### Supported Commands
-
 #### Query Answering
 Ask Sophia questions, and she'll answer using the Hugging Face API, a free ChatGPT alternative.
-**Example:** "Tell me about yourself"
-
-#### Opening Applications
-- "Open Notepad"
-- "Open OneNote"
 
 #### Website Navigation
 - "Open YouTube"
-- "Open Canva"
 
-#### Multimedia Search
-- "Play the video of the 99 names of Allah on YouTube"
-
-#### Phone and Messaging
-- "Sophia, make a phone call to Ali Hassan"
-- "Sophia, send a message to Ali Hassan"
-- "Sophia, make a video call on WhatsApp"
 
 ### Future Enhancements
 - **Custom Application and Website Management:** Users will be able to add their applications and websites without needing to work with databases or SQL.
 - **Expanded Application Support:** Add support for more desktop and web applications.
 - **Customizable Settings:** Implement user-configurable settings for a more personalized experience.
 
-## Contributing
-Feel free to open issues or submit pull requests to improve the project. Contributions are welcome, whether it’s adding new features, fixing bugs, or improving documentation.
-
-## Feedback
-If you have any suggestions or want to request additional features, leave a comment on the YouTube tutorial series. Your feedback is highly appreciated!
